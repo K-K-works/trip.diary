@@ -29,7 +29,7 @@ form, input, div {
 header {
   height: 100vh;
   margin-bottom: 5vh;
-  background-image: url("./image/top_tripmemory.png");
+  background-image: url("top_tripmemory.png");
   background-size: cover;
 }
 
