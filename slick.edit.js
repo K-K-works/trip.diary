@@ -1,15 +1,31 @@
 
   $(document).ready(function(){
     $('.slick').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      dots: true,
-      cssEase: 'case-in-out',
-      infinite: true,
-      swipe: true,
-      fade: true,
-      arrows: false,
-    });
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
     
     var hSize = $(window).height();
     $('header').height(hSize);
