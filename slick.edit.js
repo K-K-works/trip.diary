@@ -10,4 +10,11 @@
       fade: true,
       arrows: false,
     });
+    
+    var h = $(window).height();
+    var mv = $("header").innerHeight();
+    if (h>mv) {
+      $('header').css('height', h);    
+    }
+    
   });
