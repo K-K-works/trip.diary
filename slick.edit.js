@@ -3,6 +3,7 @@
     $('.slick').slick({
       autoplay: true,
       autoplaySpeed: 2500,
+      dots: true,
       centerMode: true,
       centerPadding: '60px',
       slidesToShow: 3,
