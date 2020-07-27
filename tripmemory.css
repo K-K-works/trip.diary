@@ -15,6 +15,10 @@ a {
   cursor: pointer;
   color: black;
 }
+li {
+  list-style: none;
+  padding: 0;
+}
 ul, ol,
 h1, h2, h3, h4, h5, h6, p,
 form, input, div {
@@ -75,12 +79,55 @@ header {
   width: 80%;
   margin: 0 auto;
 }
+.contents-wrapper p {
+  background-color: #e6e6e6;
+}
 .content {
   margin-top: 4vh;
-  border: 1px solid gray;
-  box-shadow: 2vw 2vh gray;
+  border: 2px solid #747747;
+  box-shadow: 2vw 2vh #747747;
 }
 .content img {
   max-width: 100%;
   height: auto;
+}
+
+/* foods-wrapper */
+
+.food {
+  margin-bottom : 5vh;
+  border: 2px solid #746948;
+  box-shadow: -2vw 2vh #746948;
+}
+.food img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* photo-wrapper */
+
+.photo {
+  margin-bottom : 5vh;
+  border: 2px solid #a78365;
+  box-shadow: 2vw 2vh #a78365;
+}
+.photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* footer-wrapper */
+
+footer {
+  background-color: #746948;
+}
+.footer-wrapper {
+  display: flex;
+}
+.footer-wrapper img {
+  vertical-align: middle;
+}
+.f-con {
+  flex: auto;
 }
