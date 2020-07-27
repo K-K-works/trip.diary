@@ -11,10 +11,12 @@
       arrows: false,
     });
     
-    var h = $(window).height();
-    var mv = $("header").innerHeight();
-    if (h>mv) {
-      $('header').css('height', h);    
-    }
+    var hSize = $(window).height();
+    $('header').height(hSize);
+
+    $(window).resize(function(){
+      var hSize = $(window).height();
+      $('header').height(hSize);
+    });
     
   });
