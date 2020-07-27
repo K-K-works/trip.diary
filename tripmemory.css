@@ -82,8 +82,12 @@ header {
 .contents-wrapper p {
   background-color: #e6e6e6;
 }
+
+.contents {
+  margin-bottom : 10vh;
+}
 .content {
-  margin-top: 4vh;
+  margin-top: 5vh;
   border: 2px solid #747747;
   box-shadow: 2vw 2vh #747747;
 }
@@ -94,6 +98,9 @@ header {
 
 /* foods-wrapper */
 
+.foods {
+  margin-bottom : 10vh;
+}
 .food {
   margin-bottom : 5vh;
   border: 2px solid #746948;
@@ -106,6 +113,9 @@ header {
 
 /* photo-wrapper */
 
+.photos {
+  margin-bottom : 10vh;
+}
 .photo {
   margin-bottom : 5vh;
   border: 2px solid #a78365;
