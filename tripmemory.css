@@ -65,3 +65,19 @@ header {
   transform: translateX(-50%) translateY(-50%);
   -webkit- transform: translateX(-50%) translateY(-50%);
 }
+
+* contents */
+
+.contents-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.content {
+  margin-top: 4vh;
+  border: 1px solid gray;
+  box-shadow: 2vw 2vh gray;
+}
+.content img {
+  max-width: 100%;
+  height: auto;
+}
