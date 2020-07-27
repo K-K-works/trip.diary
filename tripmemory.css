@@ -22,6 +22,9 @@ form, input, div {
   padding: 0;
 }
 
+main {
+ text-align: center; 
+}
 /* header                               */
 
 header {
