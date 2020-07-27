@@ -69,6 +69,7 @@ header {
   width: 95%;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 5vh;
 }
 .slick-content {
   padding: 1vh 2vw;
