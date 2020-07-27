@@ -34,7 +34,7 @@ main {
 header {
   height: 100vh;
   margin-bottom: 5vh;
-  background-image: url("top_tripmemory.png");
+  background-image: url("top.image.png");
   background-size: cover;
 }
 
