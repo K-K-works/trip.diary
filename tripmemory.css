@@ -55,9 +55,14 @@ header {
   margin: 0 auto;
   text-align: center;
 }
+.slick-content {
+  padding: 1vh 2vw;
+  background-color: #888888;
+}
 .slick img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 .slick-content {
   position: relative;
