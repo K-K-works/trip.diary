@@ -49,6 +49,11 @@
       $('#menu-open').addClass('active');
     });
 
+    $('.menu-list li').click(function(){
+     $('.close').removeClass('active');
+     $('#menu-wrapper').fadeOut();
+     $('#menu-open').addClass('active');
+   });
 
     var topBtn = $('#menu-open');
    topBtn.hide();
